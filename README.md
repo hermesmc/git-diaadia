@@ -1,6 +1,6 @@
 # git-diaadia
 
-Algumas descrições de comandos foram colhidas nos sites:
+Algumas descrições de comandos foram colhidas nos sites:<br>
   https://www.atlassian.com/br/git/tutorials/inspecting-a-repository
 
 - Apenas um alfarrábio para manter os principais comando do GIT que serão utilizados por mim:
