@@ -1,4 +1,4 @@
-# git dia-a-dia
+# git no dia-a-dia
 
 Algumas descrições de comandos foram colhidas no site: https://www.atlassian.com/br/git/tutorials
 Para maiores detalhes, acesse o site acima.<br>
