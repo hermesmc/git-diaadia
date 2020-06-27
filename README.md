@@ -17,3 +17,4 @@ O comando git pull é usado para buscar e baixar conteúdo de um repositório re
 <h3>git add.:</h3>
 <h3>git commit -m "comentário":</h3>
 <h3>git fetch:</h3>
+<h3>git checkout:</h3>
