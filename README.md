@@ -1,7 +1,7 @@
 # git no dia-a-dia
 
-Algumas descrições de comandos foram colhidas no site: https://www.atlassian.com/br/git/tutorials<br>
-Para maiores detalhes, acesse o site acima.<br>
+As descrições de comandos foram colhidas no site: https://www.atlassian.com/br/git/tutorials<br>
+Para maiores detalhes, recomendo muito que acesse o site acima.<br>
 
 <ul>
     <li>
