@@ -22,12 +22,10 @@ Exemplo: git add .
 <h3>git commit -m "comentário":</h3>
 <br>
 
-<h2><font face= “Asenine” size= “8” color="#FF0000">ATENÇÃO</font></h2>
+<h2>ATENÇÃO</h2>
 <table>
-  <tr>
     <td><h3>Os comandos git add e git commit compõem o fluxo de trabalho fundamental do Git. Esses são os dois comandos que cada usuário do Git precisa entender, independentemente do     modelo de colaboração da equipe. Eles são os meios para gravar versões de um projeto no histórico do repositório. Além de git add e git commit, um terceiro comando git push é essencial para um fluxo de trabalho colaborativo completo do Git. </h3>
-      </td>
-  </tr> 
+    </td>
 </table>  
 <br>
 <h3>git fetch:</h3>
