@@ -37,7 +37,7 @@ O comando git fetch baixa commits, arquivos e referências de um repositório re
 <h3>git checkout:</h3>
 Em termos Git, um “checkout” é o ato de alternar entre versões diferentes de uma entidade de destino. O comando git checkout opera em três entidades distintas: arquivos, commits e branches. Além da definição de “checkout”, o termo “verificação” costuma ser usado para implicar o ato de executar o comando git checkout.
 <br>
-Exemplo1: git checkout -b <new-branch>
+Exemplo1: git checkout -b &lt new-branch &gt
 
 - O exemplo acima cria e verifica o <new branch> ao mesmo tempo. A opção -b é uma sinalização de conveniência que diz ao Git para rodar o git branch <new-branch> antes de rodar o git checkout <new-branch>.
 <br>
