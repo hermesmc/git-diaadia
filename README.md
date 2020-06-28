@@ -19,9 +19,12 @@ O comando git add adiciona uma alteração no diretório ativo à área de stagi
 <br>
 Exemplo: git add .
 <br>
-<h3>git commit -m "comentário":</h3>
+<h3>git commit:</h3>
+O comando git commit captura um instantâneo das mudanças preparadas do projeto no momento. Os instantâneos com commit podem ser considerados versões "seguras" de um projeto, o Git nunca os altera, a menos que você peça a ele. Antes da execução de git commit, o comando git add é usado para promover ou "preparar" mudanças no projeto que são armazenadas em um commit. Estes dois comandos git commit e git add estão entre os mais usados.
 <br>
-
+Exemplo: git commit -m "comentário"
+- Explicando o exemplo: -m é um comando de atalho que cria de imediato um commit com uma mensagem de commit transmitida. Por padrão, git commit abre o editor de texto configurado no local e solicita que uma mensagem de commit seja escrita. Transmitir a opção -m vai pular a solicitação do editor de texto em favor de uma mensagem integrada.
+<br>
 <h2>ATENÇÃO</h2>
 <table>
     <td><h3>Os comandos git add e git commit compõem o fluxo de trabalho fundamental do Git. Esses são os dois comandos que cada usuário do Git precisa entender, independentemente do     modelo de colaboração da equipe. Eles são os meios para gravar versões de um projeto no histórico do repositório. Além de git add e git commit, um terceiro comando git push é essencial para um fluxo de trabalho colaborativo completo do Git. </h3>
@@ -29,5 +32,17 @@ Exemplo: git add .
 </table>  
 <br>
 <h3>git fetch:</h3>
+O comando git fetch baixa commits, arquivos e referências de um repositório remoto para seu repositório local. Busca (fetching) é o que você faz quando quer ver em que todos estão trabalhando. É semelhante ao svn update, que permite que você veja como a história central tem progredido, mas não obriga a de fato fazer o merge das mudanças em seu repositório. O Git isola o conteúdo buscado de um conteúdo local existente e não tem efeito algum no trabalho local de desenvolvimento. O conteúdo buscado tem de ser explicitamente verificado, usando o comando git checkout . Isso faz com que a busca seja uma forma segura de analisar commits antes de serem integrados ao repositório local.
 <br>
 <h3>git checkout:</h3>
+Em termos Git, um “checkout” é o ato de alternar entre versões diferentes de uma entidade de destino. O comando git checkout opera em três entidades distintas: arquivos, commits e branches. Além da definição de “checkout”, o termo “verificação” costuma ser usado para implicar o ato de executar o comando git checkout.
+<br>
+Exemplo1: git checkout -b <new-branch>
+
+- O exemplo acima cria e verifica o <new branch> ao mesmo tempo. A opção -b é uma sinalização de conveniência que diz ao Git para rodar o git branch <new-branch> antes de rodar o git checkout <new-branch>.
+<br>
+Exemplo2: git checkout -b <new-branch> <existing-branch>
+
+- Por padrão, o git checkout -b vai usar como base para o new-branch o HEAD atual. Outro parâmetro de branch opcional pode ser transmitido para o git checkout. No exemplo acima, <existing-branch> é transmitido e, então, o new-branch toma o existing-branch como base em vez do HEAD atual.
+
+
