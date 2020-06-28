@@ -69,14 +69,14 @@ Listar todas as ramificações no seu repositório. Isso é sinônimo de git bra
     </li>
 </ul>    
 <br>
-Exemplo2: git branch <branch>
+Exemplo2: git branch &ltbranch&gt
 <ul>
     <li>
-Criar uma nova ramificação chamada <branch>. Isso não verifica a nova ramificação.
+Criar uma nova ramificação chamada &ltbranch&gt. Isso não verifica a nova ramificação.
     </li>
 </ul>    
 <br>
-Exemplo3: git branch -d <branch>
+Exemplo3: git branch -d &ltbranch&gt
 <ul>
     <li>
 Excluir a ramificação especificada. Esta é uma operação “segura” em que o Git impede que você exclua a ramificação se tiver mudanças não mescladas.
