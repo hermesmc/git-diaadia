@@ -52,7 +52,7 @@ Exemplo2: git checkout -b &ltnew-branch&gt &ltexisting-branch&gt
 </br>
 <ul>
     <li>
-- Por padrão, o git checkout -b vai usar como base para o new-branch o HEAD atual. Outro parâmetro de branch opcional pode ser transmitido para o git checkout. No exemplo acima, &ltexisting-branch&gt é transmitido e, então, o new-branch toma o existing-branch como base em vez do HEAD atual.
+Por padrão, o git checkout -b vai usar como base para o new-branch o HEAD atual. Outro parâmetro de branch opcional pode ser transmitido para o git checkout. No exemplo acima, &ltexisting-branch&gt é transmitido e, então, o new-branch toma o existing-branch como base em vez do HEAD atual.
     </li>
 </ul>    
 
