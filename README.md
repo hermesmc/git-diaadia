@@ -23,7 +23,11 @@ Exemplo: git add .
 O comando git commit captura um instantâneo das mudanças preparadas do projeto no momento. Os instantâneos com commit podem ser considerados versões "seguras" de um projeto, o Git nunca os altera, a menos que você peça a ele. Antes da execução de git commit, o comando git add é usado para promover ou "preparar" mudanças no projeto que são armazenadas em um commit. Estes dois comandos git commit e git add estão entre os mais usados.
 <br>
 Exemplo: git commit -m "comentário"
-- Explicando o exemplo: -m é um comando de atalho que cria de imediato um commit com uma mensagem de commit transmitida. Por padrão, git commit abre o editor de texto configurado no local e solicita que uma mensagem de commit seja escrita. Transmitir a opção -m vai pular a solicitação do editor de texto em favor de uma mensagem integrada.
+
+<ul>
+    <li>Explicando o exemplo: -m é um comando de atalho que cria de imediato um commit com uma mensagem de commit transmitida. Por padrão, git commit abre o editor de texto configurado no local e solicita que uma mensagem de commit seja escrita. Transmitir a opção -m vai pular a solicitação do editor de texto em favor de uma mensagem integrada.
+    </li>
+</ul>
 <br>
 <h2>ATENÇÃO</h2>
 <table>
@@ -40,7 +44,7 @@ Em termos Git, um “checkout” é o ato de alternar entre versões diferentes 
 Exemplo1: git checkout -b &ltnew-branch&gt
 <br>
 <ul>
-    <li>- O exemplo acima cria e verifica o &ltnew branch&gt ao mesmo tempo. A opção -b é uma sinalização de conveniência que diz ao Git para rodar o git branch &ltnew-branch&gt antes de rodar o git checkout &ltnew-branch&gt.
+    <li> O exemplo acima cria e verifica o &ltnew branch&gt ao mesmo tempo. A opção -b é uma sinalização de conveniência que diz ao Git para rodar o git branch &ltnew-branch&gt antes de rodar o git checkout &ltnew-branch&gt.
     </li>    
 </ul>    
 <br>
