@@ -59,4 +59,26 @@ Exemplo2: git checkout -b &ltnew-branch&gt &ltexisting-branch&gt
 Por padrão, o git checkout -b vai usar como base para o new-branch o HEAD atual. Outro parâmetro de branch opcional pode ser transmitido para o git checkout. No exemplo acima, &ltexisting-branch&gt é transmitido e, então, o new-branch toma o existing-branch como base em vez do HEAD atual.
     </li>
 </ul>    
-
+<br>
+<h3>git branch:</h3>
+O comando git branch permite criar, listar, renomear e excluir ramificações. Ele não permite que você alterne entre as ramificações ou reúna uma história bifurcada novamente. Por esse motivo, o comando git branch é firmemente integrado com os comandos git checkout e git merge.
+Exemplo1:git branch
+<ul>
+    <li>
+Listar todas as ramificações no seu repositório. Isso é sinônimo de git branch --list.
+    </li>
+</ul>    
+<br>
+Exemplo2: git branch <branch>
+<ul>
+    <li>
+Criar uma nova ramificação chamada <branch>. Isso não verifica a nova ramificação.
+    </li>
+</ul>    
+<br>
+Exemplo3: git branch -d <branch>
+<ul>
+    <li>
+Excluir a ramificação especificada. Esta é uma operação “segura” em que o Git impede que você exclua a ramificação se tiver mudanças não mescladas.
+   </li>
+</ul>    
