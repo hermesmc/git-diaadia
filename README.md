@@ -67,11 +67,11 @@ Exemplo: git commit -m "comentário"
 <h2>ATENÇÃO</h2>
 <table>
     <td>
-        <h3>Só dê o comando de commit em códigos FUNCIONAIS. Se ainda não estiver OK, não use este comando.</h3>        
+        <h3>1 - Só dê o comando de commit em códigos FUNCIONAIS. Se ainda não estiver OK, não use este comando.</h3>        
     </td> 
 </table>
 <table>
-    <td><h3>Os comandos git add e git commit compõem o fluxo de trabalho fundamental do Git. Esses são os dois comandos que cada usuário do Git precisa entender, independentemente do     modelo de colaboração da equipe. Eles são os meios para gravar versões de um projeto no histórico do repositório. Além de git add e git commit, um terceiro comando git push é essencial para um fluxo de trabalho colaborativo completo do Git. </h3>
+    <td><h3>2 - Os comandos git add e git commit compõem o fluxo de trabalho fundamental do Git. Esses são os dois comandos que cada usuário do Git precisa entender, independentemente do     modelo de colaboração da equipe. Eles são os meios para gravar versões de um projeto no histórico do repositório. Além de git add e git commit, um terceiro comando git push é essencial para um fluxo de trabalho colaborativo completo do Git. </h3>
     </td>
 </table>  
 <br>
