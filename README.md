@@ -17,9 +17,17 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
 - Se o prompt estiver aberto feche e abra novamente. Digite o comando "git". Deverão aparecer uma série de opções de comando demonstrando que o git foi instalado com sucesso.
 
 <h3>Iniciando uma pasta</h3>
+
 - Entre na pasta que deseja que o git versione;
 - Dê o comando: git init
-
+- Para verificar se o git já está "enxergando" a pasta que você inicializou, dê o comando: git status;
+- Para incluir todos os arquivos no monitoramento do git dê o comando: git add .;
+- Se quiser apenas alguns arquivos do repositório dê o comando: git add <nome do arquivo>;
+- Para efetivar a versão do arquivo que está sendo salvo dê o comando: git commit -m 
+- Caso não esteja logado uma mensagem de erro aparacerá e será sugerido os comandos abaixo:
+    git config --global user.email "seu-email"
+    git config --global user.name "seu-nome"
+    
 
 
 <h3>git status:</h3> O comando git status exibe as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git.
