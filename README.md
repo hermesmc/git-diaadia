@@ -9,6 +9,14 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
    </li>        
 </ul>
 
+<h3>Instalando o git:</h3>
+
+- Acesse: https://git-scm.com/
+- Efetue o download que melhor lhe atender;
+- Faça a instalação "next - next";
+- Se o prompt estiver aberto feche e abra novamente. Digite o comando "git". Deverão aparecer uma série de opções de comando demonstrando que o git foi instalado com sucesso.
+
+
 <h3>git status:</h3> O comando git status exibe as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git.
 <br>
 <h3>git push:</h3> 
