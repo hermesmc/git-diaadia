@@ -27,7 +27,17 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
 - Caso não esteja logado uma mensagem de erro aparacerá e será sugerido os comandos abaixo:
     git config --global user.email "seu-email"
     git config --global user.name "seu-nome"
+ - Para verificar o histórico de modificações: git log;
+ - Para ver o log de maneira simplificada: git log --oneline;    
+ - Para ver um log mais completo git log -p
+ - Para mais opções de log: https://devhints.io/git-log
+ - Para o git ignorar o monitoramento de um ou mais arquivos:
+    - na pasta do projeto, crie um arquivo chamado .gitignore;
+    - inclua neste arquivo o nome dos arquivos que não queira que o git monitore.
+    - inclua este arquivo, .gitignore, na monitoração do git: git add -gitignore
+                                                              git commit -m "Incluindo gitignore"
     
+ 
 
 
 <h3>git status:</h3> O comando git status exibe as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git.
@@ -56,6 +66,9 @@ Exemplo: git commit -m "comentário"
 <br>
 <h2>ATENÇÃO</h2>
 <table>
+    <td>
+        <h3>Só dê o comando de commit em códigos FUNCIONAIS. Se ainda não estiver OK, não use este comando.</h3>        
+    </td>    
     <td><h3>Os comandos git add e git commit compõem o fluxo de trabalho fundamental do Git. Esses são os dois comandos que cada usuário do Git precisa entender, independentemente do     modelo de colaboração da equipe. Eles são os meios para gravar versões de um projeto no histórico do repositório. Além de git add e git commit, um terceiro comando git push é essencial para um fluxo de trabalho colaborativo completo do Git. </h3>
     </td>
 </table>  
