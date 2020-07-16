@@ -24,25 +24,22 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
 
 - Entre na pasta que deseja que o git faça o monitoramento;
 - Dê o comando: <b>git init</b>
-- Para verificar se o git já está "enxergando" a pasta que você inicializou, dê o comando: git status;
-- Para incluir todos os arquivos no monitoramento do git dê o comando: git add .;
-- Se quiser apenas alguns arquivos do repositório dê o comando: git add <nome do arquivo>;
-- Para efetivar a versão do arquivo que está sendo salvo dê o comando: git commit -m 
+- Para verificar se o git já está "enxergando" a pasta que você inicializou, dê o comando: <b>git status</b>;
+- Para incluir todos os arquivos no monitoramento do git dê o comando: <b>git add .</b>;
+- Se quiser apenas alguns arquivos do repositório dê o comando: <b>git add <nome do arquivo></b>;
+- Para efetivar a versão do arquivo que está sendo salvo dê o comando: <b>git commit -m</b> 
 - Caso não esteja logado uma mensagem de erro aparacerá e será sugerido os comandos abaixo:
-    git config --global user.email "seu-email"
-    git config --global user.name "seu-nome"
- - Para verificar o histórico de modificações: git log;
- - Para ver o log de maneira simplificada: git log --oneline;    
- - Para ver um log mais completo git log -p
+    <b>git config --global user.email "seu-email"</b>
+    <b>git config --global user.name "seu-nome"</b>
+ - Para verificar o histórico de modificações: <b>git log</b>;
+ - Para ver o log de maneira simplificada: <b>git log --oneline</b>;    
+ - Para ver um log mais completo <b>git log -p</b>
  - Para mais opções de log: https://devhints.io/git-log
  - Para o git ignorar o monitoramento de um ou mais arquivos:
     - na pasta do projeto, crie um arquivo chamado .gitignore;
     - inclua neste arquivo o nome dos arquivos que não queira que o git monitore.
-    - inclua este arquivo, .gitignore, na monitoração do git: git add -gitignore
-                                                              git commit -m "Incluindo gitignore"
-    
+    - inclua este arquivo, .gitignore, na monitoração do git: <b>git add -gitignore</b> - <b>git commit -m "Incluindo gitignore"</b>
  
-
 <h2><a name="C2">Comandos do GIT</a></h2>
 
 <h3>git status:</h3> O comando git status exibe as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git.
