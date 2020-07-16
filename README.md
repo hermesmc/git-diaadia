@@ -10,10 +10,12 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
 </ul>
 
 <h1>Índice</h1>
-<a href="#C1">1 - Primeiros passos - Instalando o git</a><br>
+<a href="#C1">1 - Primeiros passos</a><br>
 <a href="#C2">2 - Comandos do GIT</a> <br>
 
-<h2><a name="C1">Primeiros passos - Instalando o git:</a></h2>
+<h2><a name="C1">Primeiros passos</a></h2>
+
+<h3>Instalando o git:</h3>
 
 - Acesse: https://git-scm.com/
 - Efetue o download que melhor lhe atender;
