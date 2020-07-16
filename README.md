@@ -22,8 +22,8 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
 
 <h3>Iniciando no GIT</h3>
 
-- Entre na pasta que deseja que o git versione;
-- Dê o comando: git init
+- Entre na pasta que deseja que o git faça o monitoramento;
+- Dê o comando: <b>git init</b>
 - Para verificar se o git já está "enxergando" a pasta que você inicializou, dê o comando: git status;
 - Para incluir todos os arquivos no monitoramento do git dê o comando: git add .;
 - Se quiser apenas alguns arquivos do repositório dê o comando: git add <nome do arquivo>;
