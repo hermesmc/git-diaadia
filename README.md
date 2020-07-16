@@ -9,7 +9,11 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
    </li>        
 </ul>
 
-<h2>Instalando o git:</h2>
+<h1>Índice</h1>
+<a href="#C1">1 - Primeiros passos - Instalando o git</a><br>
+<a href="#C2">2 - Comandos do GIT</a> <br>
+
+<h2><a name="C1">Primeiros passos - Instalando o git:</a></h2>
 
 - Acesse: https://git-scm.com/
 - Efetue o download que melhor lhe atender;
@@ -39,7 +43,7 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
     
  
 
-<h2>Comandos do GIT</h2>
+<h2><a name="C2">Comandos do GIT</a></h2>
 
 <h3>git status:</h3> O comando git status exibe as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git.
 <br>
