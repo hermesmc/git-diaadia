@@ -27,7 +27,7 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
 - Para verificar se o git já está "enxergando" a pasta que você inicializou, dê o comando: <b>git status</b>;
 - Para incluir todos os arquivos no monitoramento do git dê o comando: <b>git add .</b>;
 - Se quiser apenas alguns arquivos do repositório dê o comando: <b>git add <nome do arquivo></b>;
-- Para efetivar a versão do arquivo que está sendo salvo dê o comando: <b>git commit -m</b> 
+- Para efetivar a versão do arquivo que está sendo salvo dê o comando: <b>git commit -m "<descrição da alteração feita>"</b> 
 - Caso não esteja logado uma mensagem de erro aparacerá e será sugerido os comandos abaixo:
     <b>git config --global user.email "seu-email"</b>
     <b>git config --global user.name "seu-nome"</b>
