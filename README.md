@@ -42,7 +42,7 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
     - inclua neste arquivo o nome dos arquivos que não queira que o git monitore.
     - inclua este arquivo, .gitignore, na monitoração do git: <b>git add -gitignore</b> - <b>git commit -m "Incluindo gitignore"</b>
     
- <h4>Criando servidor remoto<h4> 
+ <h3>Criando servidor remoto<h3> 
  
  <b>A vantagem de se criar um servidor remoto ou servidor remoto é que todos da equipe podem acessá-lo para compartilhar suas atualizações.</b>
  
@@ -54,6 +54,10 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
  <h4>Trazendo dados de repositório remoto</h4>
  
  - Na pasta onde deseja baixar os dados do repositório remoto dê o comando:<b>git clone <endereço do repositorio remoto> <nome da psata que será criada></b> 
+ 
+ <h4>Enviando dados para o repositório remoto</h4>
+ 
+ - Para enviar os dados para o repositório remoto, comando: git push <nome do repositorio> <nome da branch>
  
 <h2><a name="C2">Comandos do GIT</a></h2>
 
