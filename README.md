@@ -44,11 +44,16 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
     
  <h4>Criando servidor remoto<h4> 
  
+ <b>A vantagem de se criar um servidor remoto ou servidor remoto é que todos da equipe podem acessá-lo para compartilhar suas atualizações.</b>
+ 
  - Crie uma pasta e execute o comando:<b>git init --bare</b>
  - Esse repositório não vai conter uma cópia fisica dos arquivos, só das suas alterações;
  - Para adicionar um repositório remoto na pasta onde o git está monitorando, execute:<b>git remote add <nome do servidor> <endereço do local do servidor></b>;  
+ - Para verificar se o repositório remoto foi criado dê o comando:<b>git remote --v</b>; 
  
-   
+ <h4>Trazendo dados de repositório remoto</h4>
+ 
+ - Na pasta onde deseja baixar os dados do repositório remoto dê o comando:<b>git clone <endereço do repositorio remoto> <nome da psata que será criada></b> 
  
 <h2><a name="C2">Comandos do GIT</a></h2>
 
