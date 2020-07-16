@@ -41,6 +41,14 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
     - na pasta do projeto, crie um arquivo chamado .gitignore;
     - inclua neste arquivo o nome dos arquivos que não queira que o git monitore.
     - inclua este arquivo, .gitignore, na monitoração do git: <b>git add -gitignore</b> - <b>git commit -m "Incluindo gitignore"</b>
+    
+ <h4>Criando servidor remoto<h4> 
+ 
+ - Crie uma pasta e execute o comando:<b>git init --bare</b>
+ - Esse repositório não vai conter uma cópia fisica dos arquivos, só das suas alterações;
+ - Para adicionar um repositório remoto na pasta onde o git está monitorando, execute:<b>git remote add <nome do servidor> <endereço do local do servidor></b>;  
+ 
+   
  
 <h2><a name="C2">Comandos do GIT</a></h2>
 
