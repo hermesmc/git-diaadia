@@ -140,6 +140,10 @@ Exemplo3: git branch -d &ltbranch&gt
 Excluir a ramificação especificada. Esta é uma operação “segura” em que o Git impede que você exclua a ramificação se tiver mudanças não mescladas.
    </li>
 </ul>    
+<br>
+<h3>git rebase:</h3>
+Rebase é um dos dois utilitários do Git que se especializam em integrar alterações da ramificação para outra. O outro utilitário de integração de alterações é o git merge. o rebase tem recursos poderosos para reescrever o histórico. Rebasing é o processo de mover ou combinar uma sequência de confirmações para uma nova confirmação base. 
+<br>
 
 <h2><a name="C3">Visualizando Branches</a></h2>
 
