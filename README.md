@@ -141,7 +141,6 @@ Excluir a ramificação especificada. Esta é uma operação “segura” em que
    </li>
 </ul>    
 
-
-<h3>Visualizando Branches</h3>
+<h2><a name="C3">Visualizando Branches</a></h2>
 
 - Ferramenta para visualização do comportamento de branches: https://git-school.github.io/visualizing-git/
