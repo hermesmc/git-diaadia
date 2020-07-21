@@ -12,6 +12,7 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
 <h1>Índice</h1>
 <a href="#C1">1 - Primeiros passos</a><br>
 <a href="#C2">2 - Comandos do GIT</a> <br>
+<a href="#C3">3 - Visualizando Branches</a> <br>
 
 <h2><a name="C1">Primeiros passos</a></h2>
 
@@ -139,3 +140,8 @@ Exemplo3: git branch -d &ltbranch&gt
 Excluir a ramificação especificada. Esta é uma operação “segura” em que o Git impede que você exclua a ramificação se tiver mudanças não mescladas.
    </li>
 </ul>    
+
+
+<h3>Visualizando Branches</h3>
+
+- Ferramenta para visualização do comportamento de branches: https://git-school.github.io/visualizing-git/
