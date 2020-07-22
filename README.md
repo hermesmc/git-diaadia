@@ -11,10 +11,11 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
 
 <h1>Índice</h1>
 <a href="#C1">1 - Primeiros passos</a><br>
-<a href="#C2">2 - Comandos do GIT</a> <br>
-<a href="#C3">3 - Visualizando Branches</a> <br>
+<a href="#C2">2 - Visualizando Branches</a> <br>
+<a href="#C3">3 - Comandos do GIT</a> <br>
 
-<h2><a name="C1">Primeiros passos</a></h2>
+
+<h2><a name="C1">1 - Primeiros passos</a></h2>
 
 <h3>Instalando o git:</h3>
 
@@ -79,8 +80,13 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
 
 - Sempre que tiver um código pronto, envie-o para o repositório principal(master):
     - <b>git push local master</b>
- 
-<h2><a name="C2">Comandos do GIT</a></h2>
+
+<h2><a name="C2">2 - Visualizando Branches</a></h2>
+
+- Ferramenta para visualização do comportamento de branches: https://git-school.github.io/visualizing-git/
+
+
+<h2><a name="C3">3 - Comandos do GIT</a></h2>
 
 <h3>git status:</h3> O comando git status exibe as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git.
 <br>
@@ -164,7 +170,3 @@ Excluir a ramificação especificada. Esta é uma operação “segura” em que
 <h3>git rebase:</h3>
 Rebase é um dos dois utilitários do Git que se especializam em integrar alterações da ramificação para outra. O outro utilitário de integração de alterações é o git merge. o rebase tem recursos poderosos para reescrever o histórico. Rebasing é o processo de mover ou combinar uma sequência de confirmações para uma nova confirmação base. 
 <br>
-
-<h2><a name="C3">Visualizando Branches</a></h2>
-
-- Ferramenta para visualização do comportamento de branches: https://git-school.github.io/visualizing-git/
