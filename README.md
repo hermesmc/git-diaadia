@@ -13,6 +13,8 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
 <a href="#C1">1 - Primeiros passos</a><br>
 <a href="#C2">2 - Comandos do GIT</a> <br>
 <a href="#C3">3 - Visualizando Branches</a> <br>
+<a href="#C4">4 - Desfazendo alterações</a> <br>
+<a href="#C5">5 - Fazendo alterações temporárias</a> <br>
 
 <h2><a name="C1">Primeiros passos</a></h2>
 
@@ -148,3 +150,13 @@ Rebase é um dos dois utilitários do Git que se especializam em integrar altera
 <h2><a name="C3">Visualizando Branches</a></h2>
 
 - Ferramenta para visualização do comportamento de branches: https://git-school.github.io/visualizing-git/
+
+<h2><a name="C4">Desfazendo alterações</a></h2>
+
+- Quando você faz uma alteração em uma pasta monitorada pelo git, esta pode ser desfeita com o comando: git checkout -- <nome do arquivo>
+- Quando essa alteração é feita e você preparou para o commit com o git add, o comando é: git reset HEAD <nome do arquivo>
+- Quando essa alteração é feita e você já deu um commit, a sequencia é: 
+    git log (aqui vc deve pegar o hash do commit que foi dado;
+    git revert <hash do commit>
+
+<h2><a name="C5">Fazendo alterações temporárias</a></h2>
