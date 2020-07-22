@@ -68,6 +68,8 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
 - Quando essa alteração é feita e você já deu um commit, a sequencia é: 
     git log (aqui vc deve pegar o hash do commit que foi dado;
     git revert <hash do commit>
+    
+ - 
 
  <h3>Fazendo alterações temporárias</h3>
 
