@@ -69,7 +69,11 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
     git log (aqui vc deve pegar o hash do commit que foi dado;
     git revert <hash do commit>
     
- - 
+ - Recuperando um commit
+    - Efetue o comando git log para localizar o hash do commit que quer recuperar;
+    - Execute git checkout <6 primeiros digitos do hash>;
+    - Crie uma nova branch para salvar a recuperação feita antes;
+    
 
  <h3>Fazendo alterações temporárias</h3>
 
