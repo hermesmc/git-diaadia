@@ -90,10 +90,10 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
  <h3>Vendo diferenças</h3>    
  
  - <b>git diff (hash commit inicial)..(hash commit final)
- - Será apresentado da seguinte forma: 
-    +linha adicionada
-    -linha removida
-    -linha modificada (versão antiga)
+ - Será apresentado da seguinte forma: <br> 
+    +linha adicionada<br>
+    -linha removida<br>
+    -linha modificada (versão antiga)<br>
     +linha modificada (nova versão)
 
 <h2><a name="C2">2 - Visualizando Branches</a></h2>
