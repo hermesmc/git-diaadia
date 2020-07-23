@@ -44,6 +44,8 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
     - inclua neste arquivo o nome dos arquivos que não queira que o git monitore.
     - inclua este arquivo, .gitignore, na monitoração do git: <b>git add -gitignore</b> - <b>git commit -m "Incluindo gitignore"</b>
     
+ <h3>ATENÇÃO</h3> Não inicialize um repositório do git quando ele for criado com README.MD.   
+    
  <h3>Criando servidor remoto</h3> 
  
  <b>A vantagem de se criar um servidor remoto ou servidor remoto é que todos da equipe podem acessá-lo para compartilhar suas atualizações.</b>
