@@ -99,6 +99,7 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
  <h3>Gerando versões no git</h3>    
  - Gerando uma versão no git, você estará indicando que aquela versão tem uma certa estabilidade e que toda alteração depois dela deve ser considerada uma nova versão. <br>
  - Comando para isso é: <b>git tag -a (nomenclatura que escolher) -m "texto que escolher"</b>
+ - Para enviar a versão que criou para a branch local: git push local (nome da versao)
      
     
 <h2><a name="C2">2 - Visualizando Branches</a></h2>
