@@ -86,6 +86,15 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
 
 - Sempre que tiver um código pronto, envie-o para o repositório principal(master):
     - <b>git push local master</b>
+    
+ <h3>Vendo diferenças</h3>    
+ 
+ - <b>git diff <hash commit inicial>..<hash commit final>
+ - Será apresentado da seguinte forma: 
+    + linha adicionada
+    - linha removida
+    - linha modificada (versão antiga)
+    + linha modificada (nova versão)
 
 <h2><a name="C2">2 - Visualizando Branches</a></h2>
 
