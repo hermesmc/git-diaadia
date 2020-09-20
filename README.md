@@ -150,7 +150,10 @@ Exemplo: git commit -m "comentário"
 O comando git fetch baixa commits, arquivos e referências de um repositório remoto para seu repositório local. Busca (fetching) é o que você faz quando quer ver em que todos estão trabalhando. É semelhante ao svn update, que permite que você veja como a história central tem progredido, mas não obriga a de fato fazer o merge das mudanças em seu repositório. O Git isola o conteúdo buscado de um conteúdo local existente e não tem efeito algum no trabalho local de desenvolvimento. O conteúdo buscado tem de ser explicitamente verificado, usando o comando git checkout . Isso faz com que a busca seja uma forma segura de analisar commits antes de serem integrados ao repositório local.
 <br>
 <h3>git checkout:</h3>
-Em termos Git, um “checkout” é o ato de alternar entre versões diferentes de uma entidade de destino. O comando git checkout opera em três entidades distintas: arquivos, commits e branches. Além da definição de “checkout”, o termo “verificação” costuma ser usado para implicar o ato de executar o comando git checkout.
+<ul>
+    <li> Em termos Git, um “checkout” é o ato de alternar entre versões diferentes de uma entidade de destino. O comando git checkout opera em três entidades distintas: arquivos, commits e branches. Além da definição de “checkout”, o termo “verificação” costuma ser usado para implicar o ato de executar o comando git checkout.
+    </li>    
+</ul>
 <br>
 Exemplo1: git checkout -b &ltnew-branch&gt
 <br>
