@@ -156,7 +156,7 @@ O comando git fetch baixa commits, arquivos e referências de um repositório re
 </ul>
 <br>
 Exemplo1: git checkout -b &ltnew-branch&gt
-<br>
+</br>
 <ul>
     <li> O exemplo acima cria e verifica o &ltnew branch&gt ao mesmo tempo. A opção -b é uma sinalização de conveniência que diz ao Git para rodar o git branch &ltnew-branch&gt antes de rodar o git checkout &ltnew-branch&gt.
     </li>    
