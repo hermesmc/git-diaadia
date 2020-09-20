@@ -171,9 +171,13 @@ Por padrão, o git checkout -b vai usar como base para o new-branch o HEAD atual
 </ul>    
 <br>
 <h3>git branch:</h3>
+<ul>
+    <li>
 O comando git branch permite criar, listar, renomear e excluir ramificações. Ele não permite que você alterne entre as ramificações ou reúna uma história bifurcada novamente. Por esse motivo, o comando git branch é firmemente integrado com os comandos git checkout e git merge.
+    </li>
+</ul>         
 <br>
-Exemplo1:git branch
+Exemplo1: git branch
 </br>
 <ul>
     <li>
