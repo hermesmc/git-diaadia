@@ -211,6 +211,6 @@ Rebase é um dos dois utilitários do Git que se especializam em integrar altera
    </li>
 </ul>    
 <br>
-  Solução: 
-    git pull --rebase
+  Solução:<br> 
+    git pull --rebase<br>
     git push
