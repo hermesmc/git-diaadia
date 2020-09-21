@@ -13,6 +13,7 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
 <a href="#C1">1 - Primeiros passos</a><br>
 <a href="#C2">2 - Visualizando Branches</a> <br>
 <a href="#C3">3 - Comandos do GIT</a> <br>
+<a href="#C4">4 - Erros comuns</a> <br>
 
 
 <h2><a name="C1">1 - Primeiros passos</a></h2>
@@ -202,3 +203,9 @@ Excluir a ramificação especificada. Esta é uma operação “segura” em que
 <h3>git rebase:</h3>
 Rebase é um dos dois utilitários do Git que se especializam em integrar alterações da ramificação para outra. O outro utilitário de integração de alterações é o git merge. o rebase tem recursos poderosos para reescrever o histórico. Rebasing é o processo de mover ou combinar uma sequência de confirmações para uma nova confirmação base. 
 <br>
+<h2><a name="C4">4 - Erros comuns</a></h2>
+
+- error: failed to push some refs to...
+  Solução: 
+    git pull --rebase
+    git push
