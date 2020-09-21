@@ -205,7 +205,12 @@ Rebase é um dos dois utilitários do Git que se especializam em integrar altera
 <br>
 <h2><a name="C4">4 - Erros comuns</a></h2>
 
-- error: failed to push some refs to...
+<ul>
+    <li>
+      error: failed to push some refs to...
+   </li>
+</ul>    
+<br>
   Solução: 
     git pull --rebase
     git push
