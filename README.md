@@ -25,6 +25,10 @@ Para maiores detalhes, recomendo muito que acesse o site acima.<br>
 - Faça a instalação "next - next";
 - Se o prompt estiver aberto feche e abra novamente. Digite o comando "git". Deverão aparecer uma série de opções de comando demonstrando que o git foi instalado com sucesso.
 
+OBS.: Linux:
+
+    sudo apt install git
+
 <h3>Iniciando no GIT</h3>
 
 - Entre na pasta que deseja que o git faça o monitoramento;
